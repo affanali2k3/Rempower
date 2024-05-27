@@ -11,6 +11,7 @@ import { LandingPage } from "./pages/LandingPage";
 import { ContinuingEducation } from "./pages/ContinuingEducation";
 import { ContactUs } from "./pages/ContactUs";
 import { PreLicensing } from "./pages/PreLicensing";
+import { ThankYou } from "./pages/ThankYou";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/continuing-education" element={<ContinuingEducation />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/pre-licensing" element={<PreLicensing />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
 
         <Newsletter />

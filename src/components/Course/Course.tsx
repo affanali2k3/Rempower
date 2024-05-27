@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Course.scss";
 interface props {
+  id: number;
   image: string;
   title: string;
   lectures: number;
   quizzes: number;
   duration: string;
+  url: string;
 }
 export const Course: React.FC<props> = (props) => {
+  const [bgColor, setBgColor] = useState("white");
+  const [color, setColor] = useState("black");
+
+  const handleClick = () => {
+    setBgColor("linear-gradient(90deg, #79aa8e, #043c35)");
+    setColor("white");
+  };
+  const handleCourseClick = () => {
+    window.location.href = props.url;
+  };
   return (
-    <div className="course-main">
+    <div id={`course-${props.id}`} className="course-main" onClick={handleCourseClick}>
       <img src={props.image} />
-      <div className="content">
+      <div className="content" style={{ background: bgColor, color: color }} onClick={handleClick}>
         <h1>{props.title}</h1>
         <p>Lectures {props.lectures}</p>
         <p>Quizzes {props.quizzes}</p>
