@@ -11,11 +11,8 @@ export const JoinCourse = () => {
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         </div>
         <div className="lower-div">
-          <input type="name" placeholder="First Name" />
-          <input type="name" placeholder="Last Name" />
-          <input type="email" placeholder="Email" />
           <div className="shop-now-button">
-            <p>SHOP NOW</p>
+            <p>PURCHASE NOW</p>
           </div>
         </div>
       </div>
