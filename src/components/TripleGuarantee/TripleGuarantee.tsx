@@ -15,15 +15,20 @@ export const TripleGuarantee = () => {
             <p className="text">Pass the Exam</p>
           </div>
           <div className="guarantee-item">
-            <img src="/1.png" />
+            <img src="/2.png" />
             <p className="text">Six-Figure in the First Year</p>
           </div>
           <div className="guarantee-item">
-            <img src="/1.png" />
+            <img src="/3.png" />
             <p className="text">24/7 Customer Support</p>
           </div>
           <div className="button-div">
-            <div className="learn-more-button">
+            <div
+              className="learn-more-button"
+              onClick={() => {
+                window.location.href = "continuing-education";
+              }}
+            >
               <p>Learn More</p>
               <img src="/arrow.png" />
             </div>
