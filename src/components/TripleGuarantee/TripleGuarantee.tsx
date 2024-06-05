@@ -26,7 +26,7 @@ export const TripleGuarantee = () => {
             <div
               className="learn-more-button"
               onClick={() => {
-                window.location.href = "continuing-education";
+                window.location.href = "about";
               }}
             >
               <p>Learn More</p>

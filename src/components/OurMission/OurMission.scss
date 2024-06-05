@@ -1,0 +1,40 @@
+.our-mission-main {
+  text-align: center;
+  padding: 20px;
+  .content {
+    h1 {
+      color: #2f5d57;
+    }
+    p {
+      margin: 10px 0;
+      line-height: 1.5;
+      padding: 0 30px;
+    }
+  }
+  img {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .our-mission-main {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    h1 {
+      font-size: 40px;
+    }
+    .content {
+      p {
+        margin: 0;
+        padding: 0;
+        max-width: 40vw;
+        font-size: 20px;
+        line-height: 1.7;
+      }
+    }
+  }
+}

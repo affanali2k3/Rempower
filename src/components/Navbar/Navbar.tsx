@@ -45,6 +45,9 @@ export const Navbar = () => {
             <a href="pre-licensing">PRE LICENSING</a>
           </li>
           <li>
+            <a href="about">ABOUT US</a>
+          </li>
+          <li>
             <a href="contact">CONTACT US</a>
           </li>
         </ul>
@@ -61,6 +64,9 @@ export const Navbar = () => {
             </li>
             <li>
               <a href="pre-licensing">Pre Licensing</a>
+            </li>
+            <li>
+              <a href="pre-licensing">About Us</a>
             </li>
             <li>
               <a href="contact">Contact Us</a>
