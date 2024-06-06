@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -14,7 +14,17 @@ import { PreLicensing } from "./pages/PreLicensing";
 import { ThankYou } from "./pages/ThankYou";
 import { AboutUs } from "./pages/AboutUs";
 function App() {
-  const [count, setCount] = useState(0);
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.id = "form-script-tag-11996048";
+  //   script.src = "https://go.rempower.com/public/remote/page/1851366560f792d23397cbad1aac077203cc9d31.js";
+  //   script.async = true;
+  //   document.body.appendChild(script);
+
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -31,6 +41,7 @@ function App() {
         </Routes>
 
         <Newsletter />
+        {/* <div id="script-placeholder"></div> */}
         <Footer />
       </BrowserRouter>
     </>
