@@ -39,6 +39,9 @@ export const Navbar = () => {
             <a href="/">HOME</a>
           </li>
           <li>
+            <a href="bundles">BUNDLES</a>
+          </li>
+          <li>
             <a href="courses">COURSES</a>
           </li>
           {/* <li>
@@ -58,6 +61,9 @@ export const Navbar = () => {
           <ul>
             <li>
               <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="bundles">Bundles</a>
             </li>
             <li>
               <a href="courses">Courses</a>

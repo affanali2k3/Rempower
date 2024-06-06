@@ -26,12 +26,19 @@
     text-align: start;
     line-height: 1.7;
   }
+
+  .online-classes {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (min-width: 800px) {
   .what-sets-us-apart-main {
     margin-top: 100px;
     margin: 5%;
+    .online-classes {
+      margin-top: 100px;
+    }
     h1 {
       font-size: 50px;
       text-align: center;

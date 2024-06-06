@@ -13,6 +13,7 @@ import { ContactUs } from "./pages/ContactUs";
 import { PreLicensing } from "./pages/PreLicensing";
 import { ThankYou } from "./pages/ThankYou";
 import { AboutUs } from "./pages/AboutUs";
+import { Bundles } from "./pages/Bundles";
 import { HowItWorks } from "./pages/HowItWorks";
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/courses" element={<ContinuingEducation />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/bundles" element={<Bundles />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           {/* <Route path="/pre-licensing" element={<PreLicensing />} /> */}
