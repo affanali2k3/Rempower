@@ -3,9 +3,9 @@ import "./PreLicensingFirstFold.scss";
 export const PreLicensingFirstFold = () => {
   return (
     <section className="pre-licensing-first-fold-main">
-      <h1>Pre Licensing Program</h1>
+      <h1>Maryland Real Estate Prelicensing Comprehensive Program</h1>
       <p>
-        Last Update: <span>26 May, 2024</span>
+        60 hours of approved <span>Pre-License Education</span>
       </p>
     </section>
   );

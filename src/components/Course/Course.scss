@@ -1,8 +1,24 @@
 .course-main {
   position: relative;
   margin-bottom: 80px;
+  h1 {
+    font-size: 18px;
+  }
+  .subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #043c35;
+    color: white;
+  }
   img {
     width: 90vw;
+    height: 350px;
   }
   .content {
     position: absolute;

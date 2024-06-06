@@ -15,10 +15,10 @@ export const LandingPage = () => {
       <Sponsors />
       <WhatSetsUsApart />
       <TripleGuarantee />
-      <WhyApproachWorks />
+      {/* <WhyApproachWorks /> */}
       <WeHaveBestPrograms />
       <OurStory />
-      <SuccessStudents />
+      {/* <SuccessStudents /> */}
     </>
   );
 };

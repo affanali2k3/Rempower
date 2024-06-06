@@ -5,7 +5,7 @@ import { CoursesList } from "../components/CoursesList/CoursesList";
 export const ContinuingEducation = () => {
   return (
     <>
-      <PageHeader heading="Continuing Education" subHeading="Continuing Education" />
+      <PageHeader heading="Courses" subHeading="Courses" />
       <CoursesList />
     </>
   );

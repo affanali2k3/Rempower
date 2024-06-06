@@ -47,8 +47,9 @@ export const Newsletter = () => {
           As a customer-oriented company, we’re committed to getting you the help you need anytime. If our FAQs did not answer your
           questions, you can enter your details and will get back to you as soon as possible.
         </p>
+
         <div className="inputs">
-          <form ref={formRef} method="post" action="https://systeme.io/embedded/18252271/subscription" onSubmit={handleSubmit}>
+          <form ref={formRef} method="post" action="https://systeme.io/embedded/18513665/subscription" onSubmit={handleSubmit}>
             <input required={true} type="text" name="first_name" placeholder="First Name" />
             <input required={true} type="text" name="email" placeholder="Email" />
             <button type="submit" className="join-button btn">

@@ -1,11 +1,29 @@
 .courses-list-main {
   padding: 5%;
+  .category-splitter {
+    background-color: #043c35;
+    margin: -20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 800px) {
   .courses-list-main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
+    .continuing-education-courses-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2vw;
+      justify-content: center;
+    }
+    .pre-licensing-courses-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2vw;
+      justify-content: center;
+    }
   }
 }

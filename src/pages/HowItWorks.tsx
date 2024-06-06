@@ -2,15 +2,15 @@ import React from "react";
 import { PageHeader } from "../components/PageHeader/PageHeader";
 import { OurMission } from "../components/OurMission/OurMission";
 import { WhyChooseUs } from "../components/WhyChooseUs/WhyChooseUs";
-import { CompanyStats } from "../components/CompanyStats/CompanyStats";
-import { BecomeInstructor } from "../components/BecomeInstructor/BecomeInstructor";
+import { HowItWorksSteps } from "../components/HowItWorksSteps/HowItWorksSteps";
 
-export const AboutUs = () => {
+export const HowItWorks = () => {
   return (
     <>
-      <PageHeader heading="About Us" subHeading="About" />
-      <OurMission />
-      <WhyChooseUs />
+      <PageHeader heading="How It Works" subHeading="How It Works" />
+      {/* <OurMission /> */}
+      <HowItWorksSteps />
+      {/* <WhyChooseUs /> */}
       {/* <CompanyStats /> */}
       {/* <BecomeInstructor /> */}
     </>

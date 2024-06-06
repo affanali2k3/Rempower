@@ -6,12 +6,12 @@ export const HeroSectionLanding = () => {
       {window.innerWidth > 800 ? <img src="/hero-sec-desktop.png" /> : <img src="/hero-sec.png" />}
       <div className="text-button">
         <h1>
-          Guaranteed Exam Success and <span>Six-Figure Earnings</span> in Your First Year!
+          Online Real Estate <span>Continuing Education</span> Courses
         </h1>
         <div
           className="learn-more"
           onClick={() => {
-            window.location.href = "about";
+            window.location.href = "how-it-works";
           }}
         >
           Learn More

@@ -15,7 +15,7 @@ export const ContactOptions = () => {
         <img src="/phone.png" />
         <div className="text">
           <h2>Phone No:</h2>
-          <p>+1 301-637-7663</p>
+          <p>(202) 558-0240</p>
         </div>
       </div>
       <h2>Follow Us</h2>

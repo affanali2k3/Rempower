@@ -6,7 +6,6 @@ export const Footer = () => {
       <div className="footer-secondary">
         <div className="col-1">
           <img src="/logo.png" />
-          <p className="address">Location, Somewhere, 4356 road</p>
           <div
             className="contact-us-button"
             onClick={() => {
@@ -19,10 +18,10 @@ export const Footer = () => {
 
         <ul>
           <li>
-            <a href="continuing-education">Continuing Education</a>
+            <a href="courses">Continuing Education</a>
           </li>
           <li>
-            <a href="pre-licensing">Pre Licensing</a>
+            <a href="courses">Pre Licensing</a>
           </li>
         </ul>
 
@@ -30,7 +29,7 @@ export const Footer = () => {
           <li>Send Us A Message</li>
 
           <li>support@rempower.com</li>
-          <li>+1 (123) 456 789 </li>
+          <li>(202) 558-0240</li>
         </ul>
       </div>
       <div className="copyright">

@@ -13,18 +13,24 @@ import { ContactUs } from "./pages/ContactUs";
 import { PreLicensing } from "./pages/PreLicensing";
 import { ThankYou } from "./pages/ThankYou";
 import { AboutUs } from "./pages/AboutUs";
+import { HowItWorks } from "./pages/HowItWorks";
 function App() {
-  // useEffect(() => {
-  //   const script = document.createElement("script");
-  //   script.id = "form-script-tag-11996048";
-  //   script.src = "https://go.rempower.com/public/remote/page/1851366560f792d23397cbad1aac077203cc9d31.js";
-  //   script.async = true;
-  //   document.body.appendChild(script);
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.id = "form-script-tag-11996048";
+    script.src = "https://go.rempower.com/public/remote/page/1851366560f792d23397cbad1aac077203cc9d31.js";
+    script.async = true;
+    const scriptPlaceholder = document.getElementById("script-placeholder");
+    if (scriptPlaceholder) {
+      scriptPlaceholder.appendChild(script);
+    }
 
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
+    return () => {
+      if (scriptPlaceholder) {
+        scriptPlaceholder.removeChild(script);
+      }
+    };
+  }, []);
 
   return (
     <>
@@ -33,15 +39,16 @@ function App() {
 
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/continuing-education" element={<ContinuingEducation />} />
+          <Route path="/courses" element={<ContinuingEducation />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/pre-licensing" element={<PreLicensing />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          {/* <Route path="/pre-licensing" element={<PreLicensing />} /> */}
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
 
-        <Newsletter />
-        {/* <div id="script-placeholder"></div> */}
+        {/* <Newsletter /> */}
+        <div id="script-placeholder"></div>
         <Footer />
       </BrowserRouter>
     </>

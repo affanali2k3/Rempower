@@ -12,7 +12,7 @@ export const PreLicensing = () => {
       <PageHeader heading="Pre Licensing" subHeading="Pre Licensing" />
       <PreLicensingFirstFold />
       <JoinCourse />
-      <CourseTabs />
+      {/* <CourseTabs /> */}
       <CourseOverview />
       <FAQ />
     </>

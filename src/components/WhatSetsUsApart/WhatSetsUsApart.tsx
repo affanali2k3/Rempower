@@ -3,9 +3,13 @@ import "./WhatSetsUsApart.scss";
 export const WhatSetsUsApart = () => {
   return (
     <section className="what-sets-us-apart-main">
-      <h1>What Sets Us Apart?</h1>
-      <h2>Our Guaranteed Path to Six Figures</h2>
-      <div className="video-responsive">
+      <h1>HOW IT WORKS</h1>
+      <h2>Four steps to quickly get started into learning your desired course.</h2>
+      <p>
+        We know what you need and what you want. We care for you and provide you the easiest way to start learning your desired online
+        course, enhance your skills and get some rewards for yourself. Rempower is your best friend.
+      </p>
+      {/* <div className="video-responsive">
         <iframe
           className="iframe"
           width={window.innerWidth > 800 ? window.innerWidth * 0.9 : window.innerWidth}
@@ -15,7 +19,7 @@ export const WhatSetsUsApart = () => {
           allowFullScreen
           title="Embedded youtube"
         />
-      </div>
+      </div> */}
     </section>
   );
 };

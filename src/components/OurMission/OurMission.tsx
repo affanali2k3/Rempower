@@ -4,11 +4,15 @@ export const OurMission = () => {
   return (
     <section className="our-mission-main">
       <div className="content">
-        <h1>Our Mission</h1>
+        <h1>WHO WE ARE</h1>
         <p>
-          Every year, we hope to assist thousands of professionals in beginning a successful real estate career. Also, to assist students in
-          achieving greater success in their daily lives and careers. We accomplish this through tools and technology that assist
-          professionals in becoming licensed, maintaining their licenses, and gaining the skills they need to excel in their areas.
+          REMPOWER is made up of a team of technical and business professionals who have made a conscious decision to adopt “Empower” as our
+          corporate hallmark. Our company name REMPOWER comes from three words – Real Estate Empower.
+        </p>
+        <p>
+          We specialize in empowering real estate agents, real estate brokerages and real estate investors with the tools so they can reduce
+          redundancy, increase productivity, streamline systems and increase efficiency. Our core value of sustained and caring service is
+          reflected in every relationship we engage in – with employees, clients, partners, and the community.
         </p>
       </div>
       <img src="/our-mission.png" />

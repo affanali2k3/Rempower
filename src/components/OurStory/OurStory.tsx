@@ -9,18 +9,16 @@ export const OurStory = () => {
           <h1>Our Mission</h1>
 
           <p className="story">
-            As a customer oriented company, we’re committed to getting you the help you need anytime. If our FAQs did not answer your
-            questions, you can enter your details and will get back to you as soon as possible. As a customer oriented company, we’re
-            committed to getting you the help you need anytime. If our FAQs did not answer your questions, you can enter your details and
-            will get back to you as soon as possible...
+            REMPOWER provides online, self-paced continuing education courses for real estate brokers and salespersons license renewal. All
+            of the courses are accredited for Continuing Education Units (CEUs) in the State of Maryland.
           </p>
           <div
             className="learn-more-button"
             onClick={() => {
-              window.location.href = "continuing-education";
+              window.location.href = "about";
             }}
           >
-            <p>Take the Questionnaire</p>
+            <p>Learn More</p>
             <img src="/arrow.png" />
           </div>
         </div>

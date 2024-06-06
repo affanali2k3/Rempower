@@ -39,11 +39,11 @@ export const Navbar = () => {
             <a href="/">HOME</a>
           </li>
           <li>
-            <a href="continuing-education">CE COURSES</a>
+            <a href="courses">COURSES</a>
           </li>
-          <li>
+          {/* <li>
             <a href="pre-licensing">PRE LICENSING</a>
-          </li>
+          </li> */}
           <li>
             <a href="about">ABOUT US</a>
           </li>
@@ -60,13 +60,13 @@ export const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="continuing-education">CE Courses</a>
+              <a href="courses">Courses</a>
             </li>
-            <li>
+            {/* <li>
               <a href="pre-licensing">Pre Licensing</a>
-            </li>
+            </li> */}
             <li>
-              <a href="pre-licensing">About Us</a>
+              <a href="about">About Us</a>
             </li>
             <li>
               <a href="contact">Contact Us</a>
