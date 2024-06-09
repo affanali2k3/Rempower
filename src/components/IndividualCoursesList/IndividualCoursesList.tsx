@@ -1,55 +1,16 @@
 import React from "react";
-import "./CoursesList.scss";
+import "./IndividualCoursesList.scss";
 import { Course } from "../Course/Course";
-export const CoursesList = () => {
+export const IndividualCoursesList = () => {
   return (
     <section className="courses-list-main">
       <div className="header">
-        <h1 className="online-classes">CLASSES ARE 100% ON ZOOM</h1>
-        {/* <p>Take your classes on the go, when and where you want!</p> */}
+        <h1 className="online-classes">All of the courses necessary to renew your license</h1>
+        {/* <p></p> */}
       </div>
-      <div className="pre-licensing-category category-splitter">
-        <h1>Maryland Real Estate License Course</h1>
-      </div>
-      <div className="pre-licensing-courses-list">
-        <Course
-          url="https://real-estate-empower.teachable.com/p/mdprelicense"
-          id={1}
-          image={"pre-licensing.jpg"}
-          title="Maryland Real Estate Prelicensing Comprehensive Program"
-          // lectures={22}
-          // quizzes={5}
-          // duration="3"
-          subtitle="60 Hours of Approved Prelicense Education"
-        />
-      </div>
-      {/* <div className="bundles-category category-splitter">
-        <h1>Course Bundles</h1>
-      </div>
-      <div className="bundles-list">
-        <Course
-          url="https://real-estate-empower.teachable.com/p/fiver-pass-for-brokers-team-leaders-sales-manager"
-          id={1}
-          image={"fiverr-pass.png"}
-          title="Fiverr Pass for Brokers, Team Leaders, Sales Manager"
-          // lectures={22}
-          // quizzes={5}
-          // duration="3"
-          subtitle="5 Courses Included"
-        />
-        <Course
-          url="https://real-estate-empower.teachable.com/p/fiver-pass-for-salespersons-and-associate-brokers"
-          id={2}
-          image={"fiverr-pass.png"}
-          title="Fiverr Pass for Salespersons and Associate Brokers"
-          // lectures={22}
-          // quizzes={5}
-          // duration="3"
-          subtitle="5 Courses Included"
-        />
-      </div>
+
       <div className="continuing-education-category category-splitter">
-        <h1>Continuing Education</h1>
+        <h1>Maryland Continuing Education Courses</h1>
       </div>
 
       <div className="continuing-education-courses-list">
@@ -113,7 +74,7 @@ export const CoursesList = () => {
           // quizzes={5}
           // duration="3"
         />
-      </div> */}
+      </div>
     </section>
   );
 };

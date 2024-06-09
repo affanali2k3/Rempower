@@ -17,7 +17,7 @@ export const TripleGuarantee = () => {
           </div>
           <div className="guarantee-item">
             <img src="/3.png" />
-            <p className="text">Enroll Into Course</p>
+            <p className="text">Enroll Into the Course</p>
           </div>
           <div className="guarantee-item">
             <img src="/3.png" />
@@ -37,7 +37,7 @@ export const TripleGuarantee = () => {
         </div>
       </div>
 
-      <div className="video-guarantee">
+      {/* <div className="video-guarantee">
         <div className="step-card">
           <img src="/step-2.png" />
           <h1>Find Desired Course</h1>
@@ -50,23 +50,16 @@ export const TripleGuarantee = () => {
         </div>
         <div className="step-card">
           <img src="/step-3.png" />
-          <h1>Enroll Into Course</h1>
+          <h1>Enroll Into The Course</h1>
           <p>Enroll into your desired course and start learning immediately</p>
         </div>
         <div className="step-card">
           <img src="/step-4.png" />
           <h1>Start Learning</h1>
           <p>Start learning the course, pass the exam and receive your certificate.</p>
-        </div>
-        {/* <iframe
-          width={window.innerWidth > 800 ? window.innerWidth * 0.2 : window.innerWidth}
-          height="315"
-          src={`https://www.youtube.com/embed/MLpWrANjFbI`}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Embedded youtube"
-        /> */}
-      </div>
+        </div> */}
+
+      {/* </div> */}
     </section>
   );
 };

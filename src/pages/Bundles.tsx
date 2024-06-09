@@ -6,7 +6,7 @@ import { BundlesList } from "../components/BundlesList/BundlesList";
 export const Bundles = () => {
   return (
     <>
-      <PageHeader heading="Course Bundles" subHeading="Course Bundles" />
+      <PageHeader heading="Real Estate Continuing Education" subHeading="Real Estate Continuing Education" />
       <BundlesList />
     </>
   );

@@ -1,0 +1,66 @@
+.courses-list-main {
+  padding: 5%;
+  .category-splitter {
+    background-color: #043c35;
+    margin: -20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header {
+    h1 {
+      color: #043c35;
+      text-align: center;
+    }
+
+    p {
+      // padding-left: 20px;
+      // padding-right: 20px;
+      text-align: center;
+      line-height: 1.7;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .courses-list-main {
+    .category-splitter {
+      margin-left: -20px;
+    }
+    .continuing-education-courses-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2vw;
+      justify-content: center;
+    }
+    .pre-licensing-courses-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2vw;
+      justify-content: center;
+    }
+    .bundles-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2vw;
+      justify-content: center;
+    }
+    .header {
+      h1 {
+        font-size: 50px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.7;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+      }
+    }
+  }
+}

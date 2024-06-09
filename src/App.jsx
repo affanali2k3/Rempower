@@ -15,6 +15,7 @@ import { ThankYou } from "./pages/ThankYou";
 import { AboutUs } from "./pages/AboutUs";
 import { Bundles } from "./pages/Bundles";
 import { HowItWorks } from "./pages/HowItWorks";
+import { IndividualCoursesPage } from "./pages/IndividualCoursesPage";
 function App() {
   useEffect(() => {
     const script = document.createElement("script");
@@ -40,9 +41,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/courses" element={<ContinuingEducation />} />
+          <Route path="/real-estate-license-course" element={<ContinuingEducation />} />
+          <Route path="/real-estate-continuing-education-courses" element={<IndividualCoursesPage />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/bundles" element={<Bundles />} />
+          <Route path="/real-estate-continuing-education" element={<Bundles />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           {/* <Route path="/pre-licensing" element={<PreLicensing />} /> */}

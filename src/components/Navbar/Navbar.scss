@@ -7,10 +7,29 @@
   padding: 10px;
   box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.219);
   z-index: 5;
+  font-size: 15px;
 
   .brand {
     width: 120px;
     cursor: pointer;
+  }
+
+  .ce-courses {
+    display: none;
+    position: absolute;
+    right: 150px;
+    background-color: #79aa8e;
+    padding: 20px;
+    top: 60px;
+    // display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ce-courses-nav:hover {
+    .ce-courses {
+      display: flex;
+    }
   }
 
   .nav-menu {
@@ -69,6 +88,21 @@
   .nav-main {
     padding: 20px;
   }
+  .ce-courses {
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .ce-courses-nav:hover {
+    .ce-courses {
+      display: flex;
+    }
+  }
+
   .menu {
     display: none;
   }

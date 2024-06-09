@@ -38,11 +38,15 @@ export const Navbar = () => {
           <li>
             <a href="/">HOME</a>
           </li>
-          <li>
-            <a href="bundles">BUNDLES</a>
+          <li className="ce-courses-nav">
+            <a href="real-estate-continuing-education">CE COURSES</a>
+            <div className="ce-courses">
+              <a href="real-estate-continuing-education">CE Fiverr Pass</a>
+              <a href="real-estate-continuing-education-courses">Buy them Individual</a>
+            </div>
           </li>
           <li>
-            <a href="courses">COURSES</a>
+            <a href="real-estate-license-course">RE LICENSE COURSE</a>
           </li>
           {/* <li>
             <a href="pre-licensing">PRE LICENSING</a>
@@ -63,10 +67,14 @@ export const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="bundles">Bundles</a>
+              <a href="real-estate-continuing-education">CE COURSES</a>
+              <div className="ce-courses">
+                <a href="real-estate-continuing-education">CE Fiverr Pass</a>
+                <a href="real-estate-continuing-education-courses">Buy them Individual</a>
+              </div>
             </li>
             <li>
-              <a href="courses">Courses</a>
+              <a href="real-estate-license-course">RE LICENSE COURSE</a>
             </li>
             {/* <li>
               <a href="pre-licensing">Pre Licensing</a>

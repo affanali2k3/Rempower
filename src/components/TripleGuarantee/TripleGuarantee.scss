@@ -90,8 +90,11 @@
 
 @media screen and (min-width: 800px) {
   .triple-guarantee-main {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
     .guarantee-content {
-      width: 40vw;
+      // width: 40vw;
     }
     .para {
       // max-width: 40vw;
@@ -104,7 +107,7 @@
       width: 100%;
 
       p {
-        font-size: 20px;
+        font-size: 30px;
       }
     }
     h1 {
@@ -123,7 +126,8 @@
     .video-guarantee {
       display: flex;
       flex-wrap: wrap;
-      width: 60%;
+      // align-items: ;
+      // width: 60%;
 
       .step-card {
         width: 400px;
@@ -132,6 +136,6 @@
 
     margin: 5%;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
   }
 }

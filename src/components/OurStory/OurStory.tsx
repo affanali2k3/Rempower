@@ -10,7 +10,8 @@ export const OurStory = () => {
 
           <p className="story">
             REMPOWER provides online, self-paced continuing education courses for real estate brokers and salespersons license renewal. All
-            of the courses are accredited for Continuing Education Units (CEUs) in the State of Maryland.
+            of the courses are accredited for Continuing Education Units (CEUs) in the State of Maryland. Rempower also provides real estate
+            salesperson prelicensing via zoom classes.
           </p>
           <div
             className="learn-more-button"

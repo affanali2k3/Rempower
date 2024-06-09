@@ -8,7 +8,7 @@ export const WeHaveBestPrograms = () => {
         <div
           className="program-pre-licensing"
           onClick={() => {
-            window.location.href = "courses";
+            window.location.href = "real-estate-license-course";
           }}
         >
           <img src="/pre-licensing-program.png" />
@@ -19,7 +19,7 @@ export const WeHaveBestPrograms = () => {
         <div
           className="program-pre-licensing"
           onClick={() => {
-            window.location.href = "courses";
+            window.location.href = "real-estate-continuing-education";
           }}
         >
           <img src="/ce.png" />

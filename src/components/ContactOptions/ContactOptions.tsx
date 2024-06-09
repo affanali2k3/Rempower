@@ -7,14 +7,12 @@ export const ContactOptions = () => {
       <div className="email">
         <img src="/email.png" />
         <div className="text">
-          <h2>Email Support</h2>
           <p>support@rempower.com</p>
         </div>
       </div>
       <div className="email">
         <img src="/phone.png" />
         <div className="text">
-          <h2>Phone No:</h2>
           <p>(202) 558-0240</p>
         </div>
       </div>
