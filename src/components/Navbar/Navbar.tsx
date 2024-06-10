@@ -67,8 +67,14 @@ export const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="real-estate-continuing-education">CE COURSES</a>
-              <div className="ce-courses">
+              <a
+                onClick={() => {
+                  document.getElementById("ce-courses-mobile")?.classList.toggle("ce-courses-nav-mobile");
+                }}
+              >
+                CE COURSES
+              </a>
+              <div className="ce-courses" id="ce-courses-mobile">
                 <a href="real-estate-continuing-education">CE Fiverr Pass</a>
                 <a href="real-estate-continuing-education-courses">Buy them Individual</a>
               </div>

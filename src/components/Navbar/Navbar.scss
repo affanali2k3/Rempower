@@ -26,10 +26,8 @@
     gap: 20px;
   }
 
-  .ce-courses-nav:hover {
-    .ce-courses {
-      display: flex;
-    }
+  .ce-courses-nav-mobile {
+    display: flex;
   }
 
   .nav-menu {
@@ -98,6 +96,13 @@
   }
 
   .ce-courses-nav:hover {
+    .ce-courses {
+      display: flex;
+      right: inherit;
+    }
+  }
+
+  .ce-courses:hover {
     .ce-courses {
       display: flex;
     }
