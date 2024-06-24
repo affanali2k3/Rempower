@@ -9,18 +9,18 @@ export const TripleGuarantee = () => {
         <div className="guarantee-items">
           <div className="guarantee-item">
             <img src="/1.png" />
-            <p className="text">Create Account</p>
+            <p className="text">Find Desired Course</p>
           </div>
           <div className="guarantee-item">
             <img src="/2.png" />
-            <p className="text">Find Desired Course</p>
+            <p className="text">Create Account</p>
           </div>
           <div className="guarantee-item">
             <img src="/3.png" />
             <p className="text">Enroll Into the Course</p>
           </div>
           <div className="guarantee-item">
-            <img src="/3.png" />
+            <img src="/4.png" />
             <p className="text">Start Learning</p>
           </div>
           <div className="button-div">

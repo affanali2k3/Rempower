@@ -39,7 +39,7 @@ export const Navbar = () => {
             <a href="/">HOME</a>
           </li>
           <li className="ce-courses-nav">
-            <a href="real-estate-continuing-education">CE COURSES</a>
+            <p>CE COURSES</p>
             <div className="ce-courses">
               <a href="real-estate-continuing-education">CE Fiverr Pass</a>
               <a href="real-estate-continuing-education-courses">Buy them Individual</a>

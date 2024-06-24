@@ -85,24 +85,20 @@
 @media screen and (min-width: 800px) {
   .nav-main {
     padding: 20px;
-  }
-  .ce-courses {
-    position: absolute;
-    display: none;
-    background-color: white;
-    padding: 20px;
-    gap: 10px;
-    flex-direction: column;
-  }
 
-  .ce-courses-nav:hover {
     .ce-courses {
-      display: flex;
-      right: inherit;
+      position: absolute;
+      display: none;
+      background-color: white;
+      padding: 20px;
+      gap: 10px;
+      right: initial;
+      flex-direction: column;
+      top: initial;
     }
   }
 
-  .ce-courses:hover {
+  .ce-courses-nav:hover {
     .ce-courses {
       display: flex;
     }

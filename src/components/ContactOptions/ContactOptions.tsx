@@ -7,13 +7,13 @@ export const ContactOptions = () => {
       <div className="email">
         <img src="/email.png" />
         <div className="text">
-          <p>support@rempower.com</p>
+          <a href="mailto:support@rempower.com">support@rempower.com</a>
         </div>
       </div>
       <div className="email">
         <img src="/phone.png" />
         <div className="text">
-          <p>(202) 558-0240</p>
+          <a href="tel:+12025580240">(202) 558-0240</a>
         </div>
       </div>
       <h2>Follow Us</h2>
