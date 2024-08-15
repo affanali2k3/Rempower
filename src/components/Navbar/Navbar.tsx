@@ -42,7 +42,7 @@ export const Navbar = () => {
             <p>CE COURSES</p>
             <div className="ce-courses">
               <a href="real-estate-continuing-education">CE Fiverr Pass</a>
-              <a href="real-estate-continuing-education-courses">Buy them Individual</a>
+              <a href="real-estate-continuing-education-courses">Purchase Individual Courses</a>
             </div>
           </li>
           <li>
@@ -76,7 +76,7 @@ export const Navbar = () => {
               </a>
               <div className="ce-courses" id="ce-courses-mobile">
                 <a href="real-estate-continuing-education">CE Fiverr Pass</a>
-                <a href="real-estate-continuing-education-courses">Buy them Individual</a>
+                <a href="real-estate-continuing-education-courses">Purchas Individual Courses</a>
               </div>
             </li>
             <li>

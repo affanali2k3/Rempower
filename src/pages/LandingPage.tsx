@@ -7,6 +7,7 @@ import { WeHaveBestPrograms } from "../components/WeHaveBestPrograms/WeHaveBestP
 import { OurStory } from "../components/OurStory/OurStory";
 import { SuccessStudents } from "../components/SuccessStudents/SuccessStudents";
 import { Sponsors } from "../components/Sponsors/Sponsors";
+import { FourStepProcess } from "../components/FourStepProcess/FourStepProcess";
 export const LandingPage = () => {
   return (
     <>
@@ -14,6 +15,7 @@ export const LandingPage = () => {
       <HeroSectionLanding />
       <Sponsors />
       <WhatSetsUsApart />
+      {/* <FourStepProcess /> */}
       <TripleGuarantee />
       {/* <WhyApproachWorks /> */}
       <WeHaveBestPrograms />

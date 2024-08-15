@@ -3,10 +3,10 @@ import "./HeroSectionLanding.scss";
 export const HeroSectionLanding = () => {
   return (
     <section className="hero-sec-main">
-      {window.innerWidth > 800 ? <img src="/hero-sec-desktop.png" /> : <img src="/hero-sec.png" />}
+      {window.innerWidth > 800 ? <img src="/hero-sec-desktop.png" /> : <img src="/hero-sec-desktop.png" />}
       <div className="text-button">
         <h1>
-          Online Real Estate <span>Pre Licensing</span> and <span>Continuing Education</span>
+          Maryland Real Estate <span>Pre Licensing</span> and Online <span>Continuing Education</span>
         </h1>
         <div
           className="learn-more"
