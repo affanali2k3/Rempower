@@ -5,22 +5,24 @@ export const TripleGuarantee = () => {
     <section id="triple-guarantee" className="triple-guarantee-main">
       <div className="guarantee-content">
         <h1>Triple Guarantee</h1>
-        <p className="para">
-          We are committed to making your decision to join our family the best financial choice you've ever made. Here are our three
-          promises to you:
-        </p>
+        <div className="para-wrapper">
+          <p className="para">
+            We are committed to ensuring that joining our family is the smartest financial decision you’ll ever make, building a
+            long-lasting relationship with us. We achieve this by promising you three key outcomes
+          </p>
+        </div>
         <div className="guarantee-items">
           <div className="guarantee-item">
             <img src="/1.png" />
-            <p className="text">You will pass the exam.</p>
+            <p className="text">You will successfully pass the exam.</p>
           </div>
           <div className="guarantee-item">
             <img src="/2.png" />
-            <p className="text">You will achieve six-figure earnings in your first year</p>
+            <p className="text">You will achieve six-figure earnings within your first year.</p>
           </div>
           <div className="guarantee-item">
             <img src="/3.png" />
-            <p className="text">You will see continuous business growth each year, aligned with your goals</p>
+            <p className="text">You will experience steady growth in your business each year, tailored to your goals.</p>
           </div>
           <div
             className="button-div"
